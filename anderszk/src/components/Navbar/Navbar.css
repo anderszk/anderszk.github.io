@@ -1,0 +1,61 @@
+.navbar {
+  position: fixed;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: var(--global-padding);
+  height: var(--header-height);
+  z-index: 3;
+  top: 0;
+}
+
+.logo {
+  height: 8vh;
+  width: auto;
+}
+
+.navlinks {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 65%;
+}
+
+.navlinks a {
+  font-size: 1.5vw;
+  font-weight: 500;
+}
+
+main:not(header) {
+  position: relative;
+  top: var(--header-height);
+}
+
+.scrolled {
+  background-image: url("https://img.freepik.com/premium-vector/colorful-ambient-blurry-gradient-background_91606-124.jpg");
+  background-size: cover;
+}
+
+@media only screen and (max-width: 768px) {
+  .navbar {
+    width: 100vw;
+    padding: 0;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    padding-bottom: 5%;
+  }
+  .logo {
+    width: 50%;
+    margin: 2% 0 0 0;
+  }
+  .navlinks {
+    width: 80%;
+  }
+  .navlinks a {
+    font-size: 0.5rem;
+  }
+}
