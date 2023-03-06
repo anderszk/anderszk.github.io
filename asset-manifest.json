@@ -1,27 +1,27 @@
 {
   "files": {
-    "main.css": "/andersz.github.io/static/css/main.b8e15562.css",
-    "main.js": "/andersz.github.io/static/js/main.85290c30.js",
-    "static/js/787.3c2004d0.chunk.js": "/andersz.github.io/static/js/787.3c2004d0.chunk.js",
-    "static/media/anders.svg": "/andersz.github.io/static/media/anders.8763b3cd8697be35d74e61990e5402b9.svg",
-    "static/media/stats.svg": "/andersz.github.io/static/media/stats.55b4384d083e0adaf5feb6ad9e85a230.svg",
-    "static/media/headerimg.svg": "/andersz.github.io/static/media/headerimg.214649a0be50578bf0bbeb2e5b08f8c2.svg",
-    "static/media/diversify_logo.svg": "/andersz.github.io/static/media/diversify_logo.3cdfd60c7850a0acfb62b636873f9f60.svg",
-    "static/media/itav_logo.svg": "/andersz.github.io/static/media/itav_logo.eb0015acad90b3b7fca5d6e91737b225.svg",
-    "static/media/elkraft_logo.svg": "/andersz.github.io/static/media/elkraft_logo.d503c30d5d2846330e00ebaf5bfd6ea2.svg",
-    "static/media/ey_logo.svg": "/andersz.github.io/static/media/ey_logo.02d5abe693147046b939c0b885d0eb4d.svg",
-    "static/media/logo_b.svg": "/andersz.github.io/static/media/logo_b.c5bea63051beb9cac84750c9b4ee969e.svg",
-    "static/media/logo.svg": "/andersz.github.io/static/media/logo.0cfe28593c2f28413daeccf3f0d776b8.svg",
-    "static/media/cancri_logo.svg": "/andersz.github.io/static/media/cancri_logo.ece8b1ee1fb15e5e97531030df9f48ee.svg",
-    "static/media/ntnu_logo.svg": "/andersz.github.io/static/media/ntnu_logo.f968682db91b0ad565645f1269b82bc1.svg",
-    "static/media/totop-arrow.svg": "/andersz.github.io/static/media/totop-arrow.2d0a617f69cc1eb9c1b59899ee5a8056.svg",
-    "index.html": "/andersz.github.io/index.html",
-    "main.b8e15562.css.map": "/andersz.github.io/static/css/main.b8e15562.css.map",
-    "main.85290c30.js.map": "/andersz.github.io/static/js/main.85290c30.js.map",
-    "787.3c2004d0.chunk.js.map": "/andersz.github.io/static/js/787.3c2004d0.chunk.js.map"
+    "main.css": "/static/css/main.b8e15562.css",
+    "main.js": "/static/js/main.fe4d4d07.js",
+    "static/js/787.3c2004d0.chunk.js": "/static/js/787.3c2004d0.chunk.js",
+    "static/media/anders.svg": "/static/media/anders.8763b3cd8697be35d74e61990e5402b9.svg",
+    "static/media/stats.svg": "/static/media/stats.55b4384d083e0adaf5feb6ad9e85a230.svg",
+    "static/media/headerimg.svg": "/static/media/headerimg.214649a0be50578bf0bbeb2e5b08f8c2.svg",
+    "static/media/diversify_logo.svg": "/static/media/diversify_logo.3cdfd60c7850a0acfb62b636873f9f60.svg",
+    "static/media/itav_logo.svg": "/static/media/itav_logo.eb0015acad90b3b7fca5d6e91737b225.svg",
+    "static/media/elkraft_logo.svg": "/static/media/elkraft_logo.d503c30d5d2846330e00ebaf5bfd6ea2.svg",
+    "static/media/ey_logo.svg": "/static/media/ey_logo.02d5abe693147046b939c0b885d0eb4d.svg",
+    "static/media/logo_b.svg": "/static/media/logo_b.c5bea63051beb9cac84750c9b4ee969e.svg",
+    "static/media/logo.svg": "/static/media/logo.0cfe28593c2f28413daeccf3f0d776b8.svg",
+    "static/media/cancri_logo.svg": "/static/media/cancri_logo.ece8b1ee1fb15e5e97531030df9f48ee.svg",
+    "static/media/ntnu_logo.svg": "/static/media/ntnu_logo.f968682db91b0ad565645f1269b82bc1.svg",
+    "static/media/totop-arrow.svg": "/static/media/totop-arrow.2d0a617f69cc1eb9c1b59899ee5a8056.svg",
+    "index.html": "/index.html",
+    "main.b8e15562.css.map": "/static/css/main.b8e15562.css.map",
+    "main.fe4d4d07.js.map": "/static/js/main.fe4d4d07.js.map",
+    "787.3c2004d0.chunk.js.map": "/static/js/787.3c2004d0.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.b8e15562.css",
-    "static/js/main.85290c30.js"
+    "static/js/main.fe4d4d07.js"
   ]
 }
