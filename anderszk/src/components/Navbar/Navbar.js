@@ -31,7 +31,6 @@ export const Navbar = () => {
         <a>Technologies</a>
         <a>Experience</a>
         <a>Portofolio</a>
-        <a>Contact</a>
       </div>
     </nav>
   );
