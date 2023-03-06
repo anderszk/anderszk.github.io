@@ -4,7 +4,7 @@ import img from "../../assets/headerimg2.svg";
 export const Header = () => {
   const scrolldown = () => {
     window.scrollTo({
-      top: window.innerHeight - 10,
+      top: window.innerHeight + 10,
       behavior: "smooth",
       /* you can also use 'auto' behaviour
          in place of 'smooth' */

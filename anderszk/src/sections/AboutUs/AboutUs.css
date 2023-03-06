@@ -2,7 +2,8 @@
   padding: var(--global-padding);
   height: auto;
   color: var(--dark-font);
-  margin-bottom: 30vh;
+  margin-bottom: 20vh;
+  margin-top: -5%;
 }
 
 .aboutus-container h1 {
