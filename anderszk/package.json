@@ -19,7 +19,7 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
+    "deploy": "npm run build && gh-pages -d build"
   },
   "eslintConfig": {
     "extends": [
@@ -41,6 +41,7 @@
   },
   "homepage": "https://anderszk.github.io",
   "devDependencies": {
+    "clean-css": "^5.3.2",
     "gh-pages": "^5.0.0"
   }
 }
