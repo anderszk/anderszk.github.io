@@ -35,7 +35,7 @@ main:not(header) {
 }
 
 .scrolled {
-  background-image: url("https://img.freepik.com/premium-vector/colorful-ambient-blurry-gradient-background_91606-124.jpg");
+  background-image: url("../../assets/headerimg.svg");
   background-size: cover;
 }
 
