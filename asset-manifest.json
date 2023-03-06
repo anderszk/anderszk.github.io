@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/static/css/main.b8e15562.css",
+    "main.css": "/static/css/main.c41d2130.css",
     "main.js": "/static/js/main.fe4d4d07.js",
     "static/js/787.3c2004d0.chunk.js": "/static/js/787.3c2004d0.chunk.js",
     "static/media/anders.svg": "/static/media/anders.8763b3cd8697be35d74e61990e5402b9.svg",
@@ -16,12 +16,12 @@
     "static/media/ntnu_logo.svg": "/static/media/ntnu_logo.f968682db91b0ad565645f1269b82bc1.svg",
     "static/media/totop-arrow.svg": "/static/media/totop-arrow.2d0a617f69cc1eb9c1b59899ee5a8056.svg",
     "index.html": "/index.html",
-    "main.b8e15562.css.map": "/static/css/main.b8e15562.css.map",
+    "main.c41d2130.css.map": "/static/css/main.c41d2130.css.map",
     "main.fe4d4d07.js.map": "/static/js/main.fe4d4d07.js.map",
     "787.3c2004d0.chunk.js.map": "/static/js/787.3c2004d0.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.b8e15562.css",
+    "static/css/main.c41d2130.css",
     "static/js/main.fe4d4d07.js"
   ]
 }
