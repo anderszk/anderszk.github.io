@@ -48,6 +48,13 @@
   display: none;
 }
 
+.about-contact p {
+  margin-left: 5%;
+  font-weight: 600;
+  color: var(--secondary);
+  text-decoration: underline;
+}
+
 @media only screen and (max-width: 768px) {
   .aboutus-l,
   .aboutus-r {

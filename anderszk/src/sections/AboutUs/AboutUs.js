@@ -1,5 +1,7 @@
 import "./AboutUs.css";
 import anders from "../../assets/anders.svg";
+import linkedin from "../../assets/icon_li.svg";
+import mail from "../../assets/icon_mail.svg";
 import { useEffect } from "react";
 import AOS from "aos";
 import "aos/dist/aos.css";
@@ -38,6 +40,14 @@ export const AboutUs = () => {
             pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
             culpa qui officia deserunt mollit anim id est laborum.
           </p>
+          <div className="about-contact flex-row">
+            <img src={linkedin} alt="linkedin" />
+            <p>My LinkedIn profile</p>
+          </div>
+          <div className="about-contact flex-row">
+            <img src={mail} alt="mail" />
+            <p>Contact me on mail</p>
+          </div>
         </div>
       </div>
       <div className="aboutus-r flex-column" data-aos="fade-left">

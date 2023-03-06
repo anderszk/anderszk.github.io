@@ -56,7 +56,7 @@ const cancri = {
   title: "UI/UX Lead Designer",
   company: "Cancri (InsomnIT AS)",
   date: " January 2023 - Present",
-  info: "Responsible for external and internal products regarding prototyping, design manuals, using closed feedback loops and iterative design processes to develop designs representing the companies. Making internal resources for Cancri AS. Developing wireframes and interactive prototypes for internal and external porjects using Figma as implementation tool.",
+  info: "Responsible for external and internal products regarding prototyping, design manuals, using closed feedback loops and iterative design processes to develop designs representing the companies. Making internal resources for Cancri AS. Developing wireframes and interactive prototypes for internal and external projects using Figma as implementation tool.",
 };
 
 export const Experience = () => {

@@ -9,6 +9,7 @@ import { Navbar } from "../src/components/Navbar/Navbar";
 import { ToTopButton } from "./components/ToTopButton/ToTopButton";
 
 import "./App.css";
+import { Portofolio } from "./sections/Portofolio/Portofolio";
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
         <AboutUs />
         <Technologies />
         <Experience />
+        <Portofolio />
       </main>
       <ToTopButton />
     </>

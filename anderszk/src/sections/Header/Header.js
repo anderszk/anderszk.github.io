@@ -1,5 +1,5 @@
 import "./Header.css";
-import img from "../../assets/headerimg.svg";
+import img from "../../assets/headerimg2.svg";
 
 export const Header = () => {
   const scrolldown = () => {

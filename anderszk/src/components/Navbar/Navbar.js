@@ -18,10 +18,13 @@ export const Navbar = () => {
     return () => {
       window.removeEventListener("scroll", handleScroll);
     };
-  }, []);
+  }, [prevScrollPos, visible]);
 
   return (
-    <nav className={`navbar ${isScrolled ? "scrolled" : ""}`}>
+    <nav
+      className={`navbar ${isScrolled ? "scrolled" : ""}`}
+      style={{ visibility: visible ? "visible" : "hidden" }}
+    >
       <img src={logo} alt="logo" className="logo" />
       <div className="navlinks">
         <a>About Me</a>
