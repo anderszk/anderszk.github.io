@@ -19,13 +19,13 @@ export const Portofolio = () => {
       className="portofolio-container flex-column"
       style={{ backgroundImage: `url(${bg})` }}
     >
-      <h1>Portofolio.</h1>
+      <h1 data-aos="fade-left">Portofolio.</h1>
       <div className="portofolio-item-wrapper flex-row">
-        <div className="portofolio-item flex-column">
+        <div className="portofolio-item flex-column" data-aos="fade-right">
           <h2>Check me out on Github</h2>
           <img src={github} alt="GitHub" />
         </div>
-        <div className="portofolio-item flex-column">
+        <div className="portofolio-item flex-column" data-aos="fade-left">
           <h2>My Figma Portofolio</h2>
           <img
             src="https://raw.githubusercontent.com/devicons/devicon/master/icons/figma/figma-original.svg"
