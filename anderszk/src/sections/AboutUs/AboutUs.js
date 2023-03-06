@@ -42,11 +42,23 @@ export const AboutUs = () => {
           </p>
           <div className="about-contact flex-row">
             <img src={linkedin} alt="linkedin" />
-            <p>My LinkedIn profile</p>
+            <a
+              href="https://www.linkedin.com/in/anderszk/"
+              target="_blank"
+              rel="noreferrer"
+            >
+              My LinkedIn profile
+            </a>
           </div>
           <div className="about-contact flex-row">
             <img src={mail} alt="mail" />
-            <p>Contact me on mail</p>
+            <a
+              href="mailto:anderszk@outlook.com?subject=Contact Website"
+              target="_blank"
+              rel="noreferrer"
+            >
+              Contact me on mail
+            </a>
           </div>
         </div>
       </div>

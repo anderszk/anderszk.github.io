@@ -28,6 +28,7 @@
 
 .aboutus-container p {
   font-size: 1.2vw;
+  margin-bottom: 5%;
 }
 
 .aboutus-l {
@@ -49,9 +50,15 @@
   display: none;
 }
 
-.about-contact p {
+.about-contact {
+  align-items: center;
+  margin-bottom: 5%;
+}
+
+.about-contact a {
   margin-left: 5%;
   font-weight: 600;
+  font-size: 1.5vw;
   color: var(--secondary);
   text-decoration: underline;
 }

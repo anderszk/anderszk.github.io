@@ -14,16 +14,15 @@
 }
 
 .logo {
-  height: 8vh;
+  height: 5vh;
   width: auto;
 }
 
 .navlinks {
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
+  justify-content: spac;
   align-items: center;
-  width: 65%;
 }
 
 .navlinks a {
