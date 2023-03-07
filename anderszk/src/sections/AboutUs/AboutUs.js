@@ -23,22 +23,30 @@ export const AboutUs = () => {
           <h2>Anders Kristensen</h2>
           <h3>Engineering Student and UI/UX-Designer</h3>
           <p>
-            "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
-            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-            aliquip ex ea commodo consequat. Duis aute irure dolor in
-            reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-            pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-            culpa qui officia deserunt mollit anim id est laborum.
+            Solution-oriented, curious and enthusiastic student looking to make
+            technology interesting and innovative. My ideology is based on
+            making user-oriented designs to tailor digital solutions through
+            technology. By iterative design processes in cross-functional teams,
+            the best technology arises. I strongly believe in designing towards
+            a sustainable goal, and by including more than just a team of
+            developers are essential to make good, reliable and easy to maintain
+            solutions.
             <br />
             <br />
-            "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
-            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-            aliquip ex ea commodo consequat. Duis aute irure dolor in
-            reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-            pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-            culpa qui officia deserunt mollit anim id est laborum.
+            My interests are revolved around technology, web development,
+            UI/UX-design and Artificial Intelligence. I see my interests
+            intertwined and relevant in a set of ways in the world of
+            information technology, as products and digital solution towards the
+            private market is accelerating.
+            <br />
+            <br />I have experience from working in companies of all scales,
+            from sole sole proprietorship to international companies. This has
+            given me valueable insights of how teams work together with
+            different cases, with different levels of responsibility. For my
+            future workplace, I am hoping to develop myself both on a personal
+            level and intellectually, by learning new technologies and
+            methodologies to further improve in my field of science. Am I your
+            next co-worker? Contact me below!
           </p>
           <div className="about-contact flex-row">
             <img src={linkedin} alt="linkedin" />
