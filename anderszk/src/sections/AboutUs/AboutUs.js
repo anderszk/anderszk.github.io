@@ -44,12 +44,12 @@ export const AboutUs = () => {
             private market is accelerating.
             <br />
             <br />I have experience from working in companies of all scales,
-            from sole proprietorship to international companies. This has given
-            me valueable insights of how teams work together with different
-            cases and with different levels of responsibility. For my future
-            workplace, I am hoping to develop myself both on a personal level
-            and intellectually, by learning new technologies and methodologies
-            to further improve in my field of science.
+            from my sole proprietorship to international companies. This has
+            given me valueable insights of how teams work together with
+            different cases and with different levels of responsibility. For my
+            future workplace, I am hoping to develop myself both on a personal
+            level and intellectually, by learning new technologies and
+            methodologies to further improve in my field of science.
           </p>
           <div className="about-contact flex-row">
             <img src={linkedin} alt="linkedin" />
