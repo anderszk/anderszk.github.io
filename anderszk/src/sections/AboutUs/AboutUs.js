@@ -1,4 +1,6 @@
 import "./AboutUs.css";
+import { useRef } from "react";
+
 import anders from "../../assets/anders.svg";
 import linkedin from "../../assets/icon_li.svg";
 import mail from "../../assets/icon_mail.svg";
@@ -15,8 +17,11 @@ export const AboutUs = () => {
     });
     AOS.refresh();
   }, []);
+
+  const sectionRef = useRef(null);
+
   return (
-    <div className="aboutus-container flex-row">
+    <div className="aboutus-container flex-row" id="section1" ref={sectionRef}>
       <div className="aboutus-l flex-column" data-aos="fade-right">
         <h1>About me.</h1>
         <div style={{ width: "80%", margin: "0 auto" }}>
@@ -28,9 +33,8 @@ export const AboutUs = () => {
             making user-oriented designs to tailor digital solutions through
             technology. By iterative design processes in cross-functional teams,
             the best technology arises. I strongly believe in designing towards
-            a sustainable goal, and by including more than just a team of
-            developers are essential to make good, reliable and easy to maintain
-            solutions.
+            a sustainable goal is essential to make good, reliable and easy to
+            maintain solutions.
             <br />
             <br />
             My interests are revolved around technology, web development,
@@ -40,13 +44,12 @@ export const AboutUs = () => {
             private market is accelerating.
             <br />
             <br />I have experience from working in companies of all scales,
-            from sole sole proprietorship to international companies. This has
-            given me valueable insights of how teams work together with
-            different cases, with different levels of responsibility. For my
-            future workplace, I am hoping to develop myself both on a personal
-            level and intellectually, by learning new technologies and
-            methodologies to further improve in my field of science. Am I your
-            next co-worker? Contact me below!
+            from sole proprietorship to international companies. This has given
+            me valueable insights of how teams work together with different
+            cases and with different levels of responsibility. For my future
+            workplace, I am hoping to develop myself both on a personal level
+            and intellectually, by learning new technologies and methodologies
+            to further improve in my field of science.
           </p>
           <div className="about-contact flex-row">
             <img src={linkedin} alt="linkedin" />

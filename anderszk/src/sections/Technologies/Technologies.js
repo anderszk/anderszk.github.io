@@ -2,6 +2,8 @@ import "./Technologies.css";
 import stats from "../../assets/stats.svg";
 import { useEffect } from "react";
 import AOS from "aos";
+import { useRef } from "react";
+
 import "aos/dist/aos.css";
 
 export const Technologies = () => {
@@ -13,10 +15,15 @@ export const Technologies = () => {
     });
     AOS.refresh();
   }, []);
+
+  const sectionRef = useRef(null);
+
   return (
     <div
       className="stats-container flex-column"
       style={{ backgroundImage: `url(${stats})` }}
+      id="section2"
+      ref={sectionRef}
     >
       <h1>Technologies.</h1>
       <div className="stats-wrapper flex-column">

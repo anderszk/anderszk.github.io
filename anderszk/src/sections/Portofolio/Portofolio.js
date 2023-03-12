@@ -2,7 +2,7 @@ import "./Portofolio.css";
 import bg from "../../assets/stats2.svg";
 import cancri from "../../assets/cancri.svg";
 import github from "../../assets/github.svg";
-import { useEffect } from "react";
+import { useEffect, useRef } from "react";
 import AOS from "aos";
 import "aos/dist/aos.css";
 
@@ -15,10 +15,15 @@ export const Portofolio = () => {
     });
     AOS.refresh();
   }, []);
+
+  const sectionRef = useRef(null);
+
   return (
     <div
       className="portofolio-container flex-column"
       style={{ backgroundImage: `url(${bg})` }}
+      id="section4"
+      ref={sectionRef}
     >
       <h1 data-aos="fade-left">Portofolio.</h1>
       <div className="portofolio-item-wrapper flex-row">

@@ -1,6 +1,8 @@
 import { ExperienceCard } from "../../components/ExperienceCard/ExperienceCard";
 import "./Experience.css";
 
+import { useRef } from "react";
+
 import img_ey from "../../assets/logo/ey_logo.svg";
 import img_ks from "../../assets/logo/logo_b.svg";
 import img_elkraft from "../../assets/logo/elkraft_logo.svg";
@@ -14,7 +16,7 @@ const ey = {
   title: "Summer Intern - Consulting",
   company: " Ernst & Young Oslo",
   date: "June 2023 - August 2023",
-  info: "Summer Intern for EY Oslo in the consultant division working with Data & Analytics. Working with [Company here] to [insert here].",
+  info: "Summer Intern for EY Oslo in the consultant division working with Data & Analytics.",
 };
 const elkraft = {
   img: img_elkraft,
@@ -60,10 +62,14 @@ const cancri = {
 };
 
 export const Experience = () => {
+  const sectionRef = useRef(null);
+
   return (
     <div
       className="experience-container flex-column"
       style={{ color: "black" }}
+      id="section3"
+      ref={sectionRef}
     >
       <h1>My Experience.</h1>
       <ExperienceCard obj={ey} effect="fade-right" />

@@ -1,5 +1,6 @@
 import * as React from "react";
 
+import { useState } from "react";
 import { Header } from "./sections/Header/Header";
 import { AboutUs } from "./sections/AboutUs/AboutUs";
 import { Technologies } from "./sections/Technologies/Technologies";
@@ -12,9 +13,17 @@ import "./App.css";
 import { Portofolio } from "./sections/Portofolio/Portofolio";
 
 function App() {
+  const sections = [
+    { id: "about", label: "About Us" },
+    { id: "experience", label: "Experience" },
+    { id: "portfolio", label: "Portfolio" },
+    { id: "technologies", label: "Technologies" },
+  ];
+
+  const [currentSectionIndex, setCurrentSectionIndex] = useState(0);
   return (
     <>
-      <Navbar />
+      <Navbar sections={sections} currentSectionIndex={currentSectionIndex} />
       <main>
         <Header />
         <AboutUs />
