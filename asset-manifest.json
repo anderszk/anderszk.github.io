@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.37309347.css",
-    "main.js": "/static/js/main.4bd06301.js",
+    "main.js": "/static/js/main.69d9980c.js",
     "static/js/787.3c2004d0.chunk.js": "/static/js/787.3c2004d0.chunk.js",
     "static/media/anders.svg": "/static/media/anders.8763b3cd8697be35d74e61990e5402b9.svg",
     "static/media/stats2.svg": "/static/media/stats2.6a5a572be97dbf1ed47549ee8a57183d.svg",
@@ -11,6 +11,7 @@
     "static/media/diversify_logo.svg": "/static/media/diversify_logo.3cdfd60c7850a0acfb62b636873f9f60.svg",
     "static/media/itav_logo.svg": "/static/media/itav_logo.eb0015acad90b3b7fca5d6e91737b225.svg",
     "static/media/elkraft_logo.svg": "/static/media/elkraft_logo.d503c30d5d2846330e00ebaf5bfd6ea2.svg",
+    "static/media/propulse_logo.svg": "/static/media/propulse_logo.75c96e95907741830865ab3552861a7f.svg",
     "static/media/ey_logo.svg": "/static/media/ey_logo.02d5abe693147046b939c0b885d0eb4d.svg",
     "static/media/logo_b.svg": "/static/media/logo_b.c5bea63051beb9cac84750c9b4ee969e.svg",
     "static/media/logo.svg": "/static/media/logo.0cfe28593c2f28413daeccf3f0d776b8.svg",
@@ -23,11 +24,11 @@
     "index.html": "/index.html",
     "static/media/icon_mail.svg": "/static/media/icon_mail.76e6686a22a5c2bcb6e0836da866005b.svg",
     "main.37309347.css.map": "/static/css/main.37309347.css.map",
-    "main.4bd06301.js.map": "/static/js/main.4bd06301.js.map",
+    "main.69d9980c.js.map": "/static/js/main.69d9980c.js.map",
     "787.3c2004d0.chunk.js.map": "/static/js/787.3c2004d0.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.37309347.css",
-    "static/js/main.4bd06301.js"
+    "static/js/main.69d9980c.js"
   ]
 }
