@@ -3,6 +3,7 @@ import "./Experience.css";
 
 import { useRef } from "react";
 
+import img_pwc from "../../assets/logo/pwc.png";
 import img_ey from "../../assets/logo/ey_logo.svg";
 import img_ks from "../../assets/logo/logo_b.svg";
 import img_elkraft from "../../assets/logo/elkraft_logo.svg";
@@ -11,9 +12,17 @@ import img_itav from "../../assets/logo/itav_logo.svg";
 import img_ntnu from "../../assets/logo/ntnu_logo.svg";
 import img_cancri from "../../assets/logo/cancri_logo.svg";
 
+const pwc = {
+  img: img_pwc,
+  title: "Winter Intern Consulting - Trust Solutions",
+  company: "PwC Oslo",
+  date: "January 2024 - TBA",
+  info: "TBA",
+};
+
 const ey = {
   img: img_ey,
-  title: "Summer Intern - Consulting",
+  title: "Summer Intern - Data & Analytics",
   company: " Ernst & Young Oslo",
   date: "June 2023 - August 2023",
   info: "Summer Intern for EY Oslo in the consultant division working with Data & Analytics.",
@@ -72,6 +81,7 @@ export const Experience = () => {
       ref={sectionRef}
     >
       <h1>My Experience.</h1>
+      <ExperienceCard obj={pwc} effect="fade-left" />
       <ExperienceCard obj={ey} effect="fade-right" />
       <ExperienceCard obj={cancri} effect="fade-left" />
       <ExperienceCard obj={ks} effect="fade-right" />

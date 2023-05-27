@@ -5,6 +5,7 @@
   background-size: cover;
   padding: var(--global-padding);
   padding-bottom: 10%;
+  overflow: hidden;
 }
 
 .stats-container h1 {

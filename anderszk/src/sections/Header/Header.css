@@ -9,6 +9,7 @@
   padding: var(--global-padding);
   position: relative;
   top: var(--header-offset) !important;
+  overflow: hidden;
 }
 
 .cover h1 {

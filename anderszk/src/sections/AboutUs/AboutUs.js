@@ -31,9 +31,9 @@ export const AboutUs = () => {
             Solution-oriented, curious and enthusiastic student looking to make
             technology interesting and innovative. My ideology is based on
             making user-oriented designs to tailor digital solutions through
-            technology. By iterative design processes in cross-functional teams,
-            the best technology arises. I strongly believe in designing towards
-            a sustainable goal is essential to make good, reliable and easy to
+            technology. I strongly believe by working in a iterative design
+            processes in cross-functional teams and designing towards a
+            sustainable goal is essential to make good, reliable and easy to
             maintain solutions.
             <br />
             <br />
@@ -47,9 +47,9 @@ export const AboutUs = () => {
             from my sole proprietorship to international companies. This has
             given me valueable insights of how teams work together with
             different cases and with different levels of responsibility. For my
-            future workplace, I am hoping to develop myself both on a personal
-            level and intellectually, by learning new technologies and
-            methodologies to further improve in my field of science.
+            future workplace, I am hoping to develop myself while learning new
+            technologies and methodologies to further improve in my field of
+            science.
           </p>
           <div className="about-contact flex-row">
             <img src={linkedin} alt="linkedin" />

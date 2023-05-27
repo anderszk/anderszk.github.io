@@ -84,6 +84,6 @@ main:not(header) {
     width: 80%;
   }
   .navlinks a {
-    font-size: 0.5rem;
+    font-size: 0.7rem;
   }
 }

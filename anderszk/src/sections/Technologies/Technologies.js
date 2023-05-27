@@ -67,8 +67,8 @@ export const Technologies = () => {
             alt="Python"
           />
           <img
-            src="https://raw.githubusercontent.com/devicons/devicon/master/icons/figma/figma-original.svg"
-            alt="Figma"
+            src="https://raw.githubusercontent.com/devicons/devicon/master/icons/materialui/materialui-original.svg"
+            alt="Material UI"
           />
         </div>
         <div className="tech-row flex-row" data-aos="fade-right">
@@ -78,11 +78,11 @@ export const Technologies = () => {
           />
           <img
             src="https://upload.wikimedia.org/wikipedia/commons/c/cf/New_Power_BI_Logo.svg"
-            alt="MS Pohttps://raw.githubusercontent.com/devicons/devicon/master/icons/labview/labview-plain.svgwerBI"
+            alt="MS Po"
           />
           <img
-            src="https://raw.githubusercontent.com/devicons/devicon/master/icons/labview/labview-original.svg"
-            alt="LabVIEW"
+            src="https://raw.githubusercontent.com/devicons/devicon/master/icons/figma/figma-original.svg"
+            alt="Figma"
           />
           <img
             src="https://raw.githubusercontent.com/devicons/devicon/master/icons/arduino/arduino-original.svg"

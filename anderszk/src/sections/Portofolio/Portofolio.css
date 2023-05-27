@@ -3,6 +3,7 @@
   min-height: 50vh;
   background-size: cover;
   padding: var(--global-padding);
+  overflow: hidden;
 }
 
 .portofolio-container h1 {
@@ -38,4 +39,22 @@
 
 .portofolio-item {
   align-items: center;
+}
+
+@media only screen and (max-width: 768px) {
+  .portofolio-item-wrapper {
+    flex-direction: column;
+    padding-top: 5%;
+  }
+
+  .portofolio-item img {
+    width: 25vw;
+    margin-bottom: 5%;
+  }
+
+  .portofolio-item h2 {
+    margin-bottom: 10%;
+    margin-top: 10%;
+    font-size: 1rem;
+  }
 }
