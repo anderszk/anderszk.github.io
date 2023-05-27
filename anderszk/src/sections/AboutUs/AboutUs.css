@@ -1,0 +1,107 @@
+.aboutus-container {
+  padding: var(--global-padding);
+  height: auto;
+  color: var(--dark-font);
+  margin-bottom: 20vh;
+  margin-top: -5%;
+}
+
+.aboutus-container h1 {
+  color: var(--primary);
+  font-size: 4.2vw;
+  font-weight: 500;
+  margin: 3% 0;
+}
+
+.aboutus-container h2 {
+  color: var(--dark-font);
+  font-size: 3vw;
+  margin: 5% 0;
+  margin-left: -1%;
+}
+
+.aboutus-container h3 {
+  color: var(--secondary);
+  font-size: 1.3vw;
+  font-weight: 600;
+}
+
+.aboutus-container p {
+  font-size: 1.2vw;
+  margin-bottom: 5%;
+}
+
+.aboutus-l {
+  width: 60%;
+}
+.aboutus-r {
+  width: 40%;
+  justify-content: center;
+  align-items: end;
+}
+
+.aboutus-pic {
+  width: 25vw;
+  justify-content: center;
+  align-items: center;
+}
+
+#aboutus-mobile {
+  display: none;
+}
+
+.about-contact {
+  align-items: center;
+  margin-bottom: 5%;
+}
+
+.about-contact a {
+  margin-left: 5%;
+  font-weight: 600;
+  font-size: 1.3vw;
+  color: var(--secondary);
+  text-decoration: underline;
+}
+
+@media only screen and (max-width: 768px) {
+  .aboutus-l,
+  .aboutus-r {
+    width: 100%;
+    align-items: center;
+  }
+  .aboutus-container {
+    flex-direction: column-reverse;
+    justify-content: space-between;
+    padding: 0;
+    margin-bottom: 10%;
+  }
+  .aboutus-container h1 {
+    display: none;
+  }
+  .aboutus-container h2 {
+    font-size: 2rem;
+    text-align: center;
+  }
+  .aboutus-container h3 {
+    font-size: 1.2rem;
+    margin-bottom: 10%;
+    text-align: center;
+  }
+  .aboutus-container p {
+    font-size: 1rem;
+    margin-left: 0.5%;
+  }
+
+  .aboutus-pic {
+    width: 70vw;
+    margin: 10%;
+  }
+
+  #aboutus-mobile {
+    font-size: 3.5rem;
+    margin: 5% 0;
+    margin-left: -1%;
+    text-align: center;
+    display: block;
+  }
+}

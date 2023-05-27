@@ -1,0 +1,43 @@
+@import url("https://fonts.cdnfonts.com/css/bruno-ace");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap");
+
+:root {
+  --primary: #23173e;
+  --secondary: #492256;
+  --accent: #5187dd;
+
+  --dark-font: #222222;
+  --white-font: #f9f9f9;
+
+  --global-padding: 0 8%;
+
+  --header-height: 15vh;
+  --header-offset: -15vh;
+}
+
+body {
+  color: var(--white-font);
+  margin: 0;
+  font-family: "Montserrat", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+h1 {
+  font-family: "Bruno Ace", sans-serif;
+}
+
+main:not(header) {
+  position: relative;
+  top: var(--header-height);
+}
+
+.flex-column {
+  display: flex;
+  flex-direction: column;
+}
+
+.flex-row {
+  display: flex;
+  flex-direction: row;
+}

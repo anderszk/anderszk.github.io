@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.css": "/static/css/main.37309347.css",
-    "main.js": "/static/js/main.69d9980c.js",
+    "main.css": "/static/css/main.8a0b37d7.css",
+    "main.js": "/static/js/main.d4785abf.js",
     "static/js/787.3c2004d0.chunk.js": "/static/js/787.3c2004d0.chunk.js",
     "static/media/anders.svg": "/static/media/anders.8763b3cd8697be35d74e61990e5402b9.svg",
-    "static/media/stats2.svg": "/static/media/stats2.6a5a572be97dbf1ed47549ee8a57183d.svg",
+    "static/media/stats2.svg": "/static/media/stats2.1f387405d5fd9f09e0a6e763f3166740.svg",
     "static/media/headerimg2.svg": "/static/media/headerimg2.e8e486b6ad35e55aba11e386dd13efb6.svg",
     "static/media/stats.svg": "/static/media/stats.55b4384d083e0adaf5feb6ad9e85a230.svg",
     "static/media/headerimg.svg": "/static/media/headerimg.214649a0be50578bf0bb.svg",
@@ -17,18 +17,14 @@
     "static/media/logo.svg": "/static/media/logo.0cfe28593c2f28413daeccf3f0d776b8.svg",
     "static/media/cancri_logo.svg": "/static/media/cancri_logo.ece8b1ee1fb15e5e97531030df9f48ee.svg",
     "static/media/ntnu_logo.svg": "/static/media/ntnu_logo.f968682db91b0ad565645f1269b82bc1.svg",
-    "static/media/cancri.svg": "/static/media/cancri.f8c5e01a5621cba1323c1c80919e8e73.svg",
     "static/media/github.svg": "/static/media/github.6bbbb55308f2dabee2452684075c9b64.svg",
     "static/media/icon_li.svg": "/static/media/icon_li.06aedf8223e4f58d9ec98b4a62196844.svg",
     "static/media/totop-arrow.svg": "/static/media/totop-arrow.2d0a617f69cc1eb9c1b59899ee5a8056.svg",
     "index.html": "/index.html",
     "static/media/icon_mail.svg": "/static/media/icon_mail.76e6686a22a5c2bcb6e0836da866005b.svg",
-    "main.37309347.css.map": "/static/css/main.37309347.css.map",
-    "main.69d9980c.js.map": "/static/js/main.69d9980c.js.map",
+    "main.8a0b37d7.css.map": "/static/css/main.8a0b37d7.css.map",
+    "main.d4785abf.js.map": "/static/js/main.d4785abf.js.map",
     "787.3c2004d0.chunk.js.map": "/static/js/787.3c2004d0.chunk.js.map"
   },
-  "entrypoints": [
-    "static/css/main.37309347.css",
-    "static/js/main.69d9980c.js"
-  ]
+  "entrypoints": ["static/css/main.8a0b37d7.css", "static/js/main.d4785abf.js"]
 }
